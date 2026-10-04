@@ -1,0 +1,24 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.cache
+.ipynb_checkpoints
+
+# Large raw video frames dataset (~300MB)
+lane_dataset/
+
+# TensorBoard logs
+runs/
+
+# Outputs and temporary predictions
+output/
+/loss_convergence.png
+checkpoints/final_lane_model.pth
+checkpoints_64x36/
+
+# OS and Editor temporary files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
