@@ -1,0 +1,11 @@
+Inference Benchmark & Memory Footprint Report
+==================================================
+Device:                      cuda (NVIDIA GeForce RTX 3050 Laptop GPU)
+Input Resolution:            64 x 36
+Original Resolution:         1280 x 720
+Total Frames Tested:         350
+Average Latency:             7.00 ms
+Throughput:                  142.9 FPS
+Host RAM Footprint:          943.64 MB
+GPU VRAM Allocated:          6.97 MB
+GPU VRAM Peak:               8.14 MB

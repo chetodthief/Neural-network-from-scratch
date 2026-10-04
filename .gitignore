@@ -11,8 +11,11 @@ lane_dataset/
 # TensorBoard logs
 runs/
 
-# Outputs and temporary predictions
-output/
+# Outputs and temporary predictions (keep summary text/markdown reports only)
+output/predictions_mask/
+output/predictions_overlay/
+output/evaluation_snapshots/
+output/*.png
 /loss_convergence.png
 checkpoints/final_lane_model.pth
 checkpoints_64x36/
